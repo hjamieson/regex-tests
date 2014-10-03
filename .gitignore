@@ -1,0 +1,6 @@
+# ignore files for regex-tests
+.DS_Store
+target/
+*.iml
+.idea
+
