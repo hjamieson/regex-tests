@@ -60,5 +60,10 @@ public class SimpleTest {
         System.out.println(StringEscapeUtils.escapeXml(sample));
 
     }
+    @Test
+    public void testObvious(){
+        String sample = "this is a test of the emergency broadcast system";
+        assertTrue(sample.matches(".*test of the.*"));
+    }
 
 }
